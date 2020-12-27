@@ -76,12 +76,12 @@ class SportCar: Car {
 }
 
 var car=Car(color: .red, maxspeed: 200, brand: .toyota)
-car.empty()
+ car.empty()
 
 var truncCar=TruncCar(color: .green, maxspeed: 180, brand: .honda, trailer: .Yes)
-truncCar.empty()
+ truncCar.empty()
     
 
 
 var sportcar=SportCar(color: .blue, maxspeed: 380, brand: .bmw, trailer: .No, coupe: "Yes")
-truncCar.empty()
+ truncCar.empty()
